@@ -1,0 +1,781 @@
+<?xml version="1.0"?>
+<ew-language version="24.4.0" id="ar-EG" author="Hafez">
+<!--
+    IMPORTANT NOTES:
+    1. Language ID must be RFC 4646 language tags (which use hyphen, not underscore), e.g. en-US, fr-CA, fr-FR,
+    2. Requires PHP Internationalization extension (Intl), see https://www.php.net/manual/en/book.intl.php,
+    3. Locale files are NOT used unless you save customized settings of a locale in the project.
+-->
+<global>
+    <phrase id="2FADisabled" value="تم تعطيل المصادقة الثنائية"/><!-- v2022 -->
+    <phrase id="2FAEnabled" value="تم تمكين المصادقة الثنائية"/><!-- v2022 -->
+    <phrase id="2FAResetFailed" value="فشل في تعطيل المصادقة الثنائية"/><!-- v2022 -->
+    <phrase id="2FAVerificationFailed" value="فشل التحقق من المصادقة الثنائية"/><!-- v2022 -->
+    <phrase id="Accept" value="موافق"/><!-- v2019 -->
+    <phrase id="ActionDeleted" value="تم الحذف"/>
+    <phrase id="ActionInserted" value="تم الادراج"/>
+    <phrase id="ActionInsertedGridAdd" value="تم إدراجه (إضافة الشبكة)"/>
+    <phrase id="ActionUpdated" value="تحديث"/>
+    <phrase id="ActionUpdatedGridEdit" value="تم التحديث (تحرير الشبكة)"/>
+    <phrase id="ActionUpdatedMultiUpdate" value="تحديث (تحديث متعدد)"/>
+    <phrase id="ActivateAccount" value="تم تفعيل حسابك بنجاح"/>
+    <phrase id="ActivateAgain" value="لقد تم تفعيل حسابك بالفعل"/><!-- v2024 -->
+    <phrase id="ActivateFailed" value="فشل التفعيل"/>
+    <phrase id="ActiveUserSessions" value="فعال %a (المجموع %t)"/><!-- v2024 -->
+    <phrase id="ShowActiveUsers" value="إظهار المستخدمين الذين قاموا بتسجيل الدخول فقط (المجموع %n الاعضاء)"/><!-- v2024 -->
+    <phrase id="Add" value="اضافة"/>
+    <phrase id="AddBlankRow" value="إضافة صف فارغ" class="fa-solid fa-plus ew-icon"/><!-- v2023 -->
+    <phrase id="AddBtn" value="اضافة"/><!-- v2018 -->
+    <phrase id="AddEvent" value="أضف حدثًا"/><!-- v2023 -->
+    <phrase id="AddLink" value="اضافة" class="fa-solid fa-plus ew-icon"/><!-- v2023 -->
+    <phrase id="AddMasterDetailLink" value="إضافة رئيسية/تفصيلية" class="icon-md-add ew-icon"/><!-- v11 -->
+    <phrase id="AddSuccess" value="تمت الاضافة بنجاح"/>
+    <phrase id="AdvancedSearch" value="البحث المتقدم" class="icon-advanced-search ew-icon"/><!-- v2023 -->
+    <phrase id="AggregateColon" value=": "/><!-- v2020 -->
+    <phrase id="AggregateEqual" value="="/><!-- v2020 -->
+    <phrase id="AllRecords" value="الكل"/>
+    <phrase id="AllWord" value="جميع الكلمات"/>
+    <phrase id="AnyWord" value="أي كلمة"/>
+    <phrase id="ApiTitle" value="REST API"/><!-- v2021 -->
+    <phrase id="AuditTrailAutoLogin" value="تسجيل تلقائى"/>
+    <phrase id="AuditTrailFailedAttempt" value="محاولة فاشلة: %n"/>
+    <phrase id="AuditTrailUserLoggedIn" value="المستخدم بتسجيل الدخول بالفعل"/>
+    <phrase id="AuditTrailPasswordExpired" value="انتهت كلمة المرور"/>
+    <phrase id="AuditTrailLogin" value="تسجيل الدخول"/>
+    <phrase id="AuditTrailLogout" value="تسجيل خروج"/>
+    <phrase id="AutoLoginFailed" value="فشل تسجيل الدخول التلقائي"/><!-- v2018 -->
+    <phrase id="Average" value="معدل"/>
+    <phrase id="BackToList" value="الرجوع للقائمة"/>
+    <phrase id="BackToLogin" value="العودة إلى صفحة تسجيل الدخول"/>
+    <phrase id="BackToMasterRecordPage" value="العودة إلى الجدول الرئيسي"/>
+    <phrase id="BackupCodes" value="الرموز الاحتياطية (2FA)"/><!-- v2022 -->
+    <phrase id="BackupCodesMsg" value="احفظ رموزك الاحتياطية في مكان آمن ولكن يمكن الوصول إليه. يمكنك استخدام كل رمز احتياطي مرة واحدة فقط."/><!-- v2022 -->
+    <phrase id="BasicSearchKeyword" value="كلمة البحث"/><!-- v2023 -->
+    <phrase id="BatchDeleteBegin" value="*** يبدأ حذف الدفعة ***"/>
+    <phrase id="BatchDeleteRollback" value="*** دفعة حذف التراجع***"/>
+    <phrase id="BatchDeleteSuccess" value="*** تم حذف الدفعة بنجاح ***"/>
+    <phrase id="BatchInsertBegin" value="*** تبدأ عملية إدراج الدفعة ***"/>
+    <phrase id="BatchInsertRollback" value="*** التراجع عن إدراج الدفعة ***"/>
+    <phrase id="BatchInsertSuccess" value="*** تم إدراج الدفعة بنجاح ***"/>
+    <phrase id="BatchUpdateBegin" value="*** يبدأ التحديث الدفعي ***"/>
+    <phrase id="BatchUpdateRollback" value="*** التراجع عن التحديث الدفعي ***"/>
+    <phrase id="BatchUpdateSuccess" value="*** تم التحديث الدفعي بنجاح ***"/>
+    <phrase id="BlankOptionText" value="&amp;nbsp;"/><!-- v2022 -->
+    <phrase id="BooleanNo" value="لا"/><!-- v2020 -->
+    <phrase id="BooleanYes" value="نعم"/><!-- v2020 -->
+    <phrase id="ButtonActions" value="أجراءات" class="fa-solid fa-bars ew-icon"/><!-- v2023 -->
+    <phrase id="ButtonAddEdit" value="إضافة/تعديل" class="icon-addedit ew-icon"/><!-- v11 -->
+    <phrase id="ButtonDetails" value="ماجستير/تفصيل" class="icon-master-detail ew-icon"/><!-- v11 -->
+    <phrase id="ButtonExport" value="تصدير" class="fa-solid fa-download ew-icon"/><!-- v2023 -->
+    <phrase id="ButtonListOptions" value="خيارات" class="fa-solid fa-bars ew-icon"/><!-- v2023 -->
+    <phrase id="ButtonListOptionsCard" value="خيارات" class="fa-solid fa-ellipsis-vertical ew-icon"/><!-- v2023 -->
+    <phrase id="ButtonSearch" value="يبحث" class="fa-solid fa-magnifying-glass ew-icon"/><!-- v2023 -->
+    <phrase id="CancelBtn" value="الغاء"/><!-- v2017 -->
+    <phrase id="CancelLink" value="الغاء" class="fa-solid fa-times ew-icon"/><!-- v2023 -->
+    <phrase id="ChangePassword" value="تغيير كلمة المرور"/><!-- v2020 -->
+    <phrase id="ChangePasswordMessage" value="تغيير كلمة المرور"/><!-- v2019 -->
+    <phrase id="ChangePasswordPage" value="تغيير كلمة المرور"/>
+    <phrase id="ChangePasswordBtn" value="تغيير"/>
+    <phrase id="ChartExportError1" value="غير قادر على الحصول على %t صورة من %e"/><!-- v2023 -->
+    <phrase id="ChartExportError2" value="اسم الملف مفقود"/><!-- v2023 -->
+    <phrase id="ChartExportError3" value="مجلد التحميل غير موجود"/><!-- v2023 -->
+    <phrase id="ChartExportError4" value="مجلد التحميل غير قابل للكتابة"/><!-- v2023 -->
+    <phrase id="ChartOrder" value="ترتيب حسب"/><!-- v2020 -->
+    <phrase id="ChartOrderXAsc" value="التسميات تصاعدية"/><!-- v2020 -->
+    <phrase id="ChartOrderXDesc" value="التسميات تنازلي"/><!-- v2020 -->
+    <phrase id="ChartOrderYAsc" value="تصاعد القيم"/><!-- v2020 -->
+    <phrase id="ChartOrderYDesc" value="تنازلي القيم"/><!-- v2020 -->
+    <phrase id="Chat" value="محادثة"/><!-- v2024 -->
+    <phrase id="ChooseFileBtn" value="يختار..."/><!-- v11 -->
+    <phrase id="ChooseFile" value="قم بإسقاط الملف هنا أو انقر للتحميل"/><!-- v2022 -->
+    <phrase id="ChooseFiles" value="قم بإسقاط الملفات هنا أو انقر للتحميل"/><!-- v2022 -->
+    <phrase id="Clear" value="بدون فلتر"/><!-- v2022 -->
+    <phrase id="ClickReCaptcha" value="الرجاء الضغط على خانة الاختيار reCAPTCHA"/><!-- v12 -->
+    <phrase id="ClickToDrillDown" value="انقر للتنقل لأسفل"/><!-- v2020 -->
+    <phrase id="CloseAccountBtn" value="حذف البيانات وإغلاق حسابي"/><!-- v2019 -->
+    <phrase id="CloseBtn" value="اغلاق"/><!-- v2017 -->
+    <phrase id="Columns" value="أعمدة" class="fa-solid fa-table-columns ew-icon"/><!-- v2023 -->
+    <phrase id="Confirm" value="تأكيد"/>
+    <phrase id="ConfirmBtn" value="تأكيد"/><!-- v2017 -->
+    <phrase id="ConfirmCancel" value="هل تريد الالغاء؟"/><!-- v12 -->
+    <phrase id="ConfirmPassword" value="تأكيد كلمة المرور"/><!-- v2021 -->
+    <phrase id="ConflictCancelLink" value="الغاء"/>
+    <phrase id="CookieConsentTitle" value="Cookies"/><!-- v2021 -->
+    <phrase id="CookieConsentSummary" value="استخدم هذه المساحة لتلخيص سياسة الخصوصية واستخدام ملفات تعريف الارتباط الخاصة بك."/><!-- v2021 -->
+    <phrase id="Copy" value="نسخ"/>
+    <phrase id="CopyLink" value="نسخ" class="fa-regular fa-copy ew-icon"/><!-- v2023 -->
+    <phrase id="CopyToClipboard" value="نسخ إلى الحافظة"/><!-- v2022 -->
+    <phrase id="CopiedToClipboard" value="نسخ إلى الحافظة"/><!-- v2022 -->
+    <phrase id="Count" value="العدد"/>
+    <phrase id="CountSelected" value="%s اختر"/><!-- v12 -->
+    <phrase id="Crop" value="اقتصاص"/><!-- v2023 -->
+    <phrase id="CrosstabSummary" value="ملخص"/><!-- v2023 -->
+    <phrase id="CurrentFilters" value="المرشحات الحالية:"/><!-- v2020 -->
+    <phrase id="CurrentPassword" value="كلمة السر الحالية: "/><!-- v12 -->
+    <phrase id="CustomActionCompleted" value="'%s' مكتمل"/>
+    <phrase id="CustomActionCancelled" value="'%s' ألغيت"/>
+    <phrase id="CustomActionFailed" value="'%s' فشل"/><!-- v12 -->
+    <phrase id="CustomActionNotAllowed" value="'%s' غير مسموح"/><!-- v12 -->
+    <phrase id="CustomActionNotFound" value="'%s' غير موجود"/><!-- v2024 -->
+    <phrase id="CustomView" value="عرض مخصصة"/>
+    <phrase id="Danger" value="خطأ"/><!-- v2020 -->
+    <phrase id="Debug" value="تصحيح"/><!-- v2021 -->
+    <phrase id="Delete" value="حذف"/>
+    <phrase id="DeleteBtn" value="حذف"/>
+    <phrase id="DeleteCancelled" value="تم إلغاء الحذف"/>
+    <phrase id="DeleteConfirm" value="هل أنت متأكد أنك تريد حذف؟"/><!-- v2023 -->
+    <phrase id="DeleteEventConfirm" value="هل أنت متأكد من حذف هذا الحدث؟"/><!-- v2023 -->
+    <phrase id="DeleteFailed" value="فشل في حذف السجل(s)"/><!-- v2023 -->
+    <phrase id="DeleteFilter" value="حذف عامل التصفية"/><!-- v12 -->
+    <phrase id="DeleteFilterConfirm" value="حذف عامل التصفية %s?"/><!-- v12 -->
+    <phrase id="DeleteLink" value="حذف" class="fa-solid fa-trash ew-icon"/><!-- v2023 -->
+    <phrase id="DeleteSelectedLink" value="حذف السجلات المحددة" class="fa-solid fa-trash ew-icon"/><!-- v2023 -->
+    <phrase id="DeleteRecordsFailed" value="فشل الحذف للسجلات التي تحتوي على مفاتيح: %k"/><!-- v2023 -->
+    <phrase id="DeleteSuccess" value="حذف بنجاح"/>
+    <phrase id="DetailLink" value=""/>
+    <phrase id="DetailCount" value="&lt;span class='badge text-bg-%s ew-detail-count-badge' data-count='%c'&gt;%c&lt;/span&gt;"/><!-- v2024 -->
+    <phrase id="Details" value="تفاصيل"/><!-- v2022 -->
+    <phrase id="Disable2FA" value="تعطيل المصادقة الثنائية"/><!-- v2022 -->
+    <phrase id="Disable2FAConfirm" value="هل أنت متأكد أنك تريد تعطيل المصادقة الثنائية؟"/><!-- v2023 -->
+    <phrase id="DisableChat" value="تعطيل الدردشة"/><!-- v2024 -->
+    <phrase id="DisableNotifications" value="أوقف التنبيهات"/><!-- v2022 -->
+    <phrase id="DisableNotificationsConfirm" value="هل أنت متأكد أنك تريد تعطيل الإخطارات؟"/><!-- v2023 -->
+    <phrase id="DownloadBtn" value="تحميل"/><!-- v2019 -->
+    <phrase id="DrillDownAllRecords" value="جميع السجلات"/><!-- v2020 -->
+    <phrase id="DrillDownFilters" value="مرشحات التنقيب:"/><!-- v2020 -->
+    <phrase id="DupIndex" value="قيمة مكررة '%v' for مؤشر فريد '%f'"/>
+    <phrase id="DupKey" value="تكرار المفتاح الأساسي: '%f'"/>
+    <phrase id="Edit" value="تعديل"/>
+    <phrase id="EditBtn" value="تعديل"/><!-- v2018 -->
+    <phrase id="EditLink" value="تعديل" class="fa-solid fa-pen ew-icon"/><!-- v2023 -->
+    <phrase id="EditSelectedLink" value="تعديل السجلات المحددة" class="icon-grid-edit ew-icon"/><!-- v2023 -->
+    <phrase id="Email" value="بريد إلكتروني"/><!-- v2021 -->
+    <phrase id="EmailAddress" value="عنوان البريد الإلكتروني"/><!-- v2023 -->
+    <phrase id="EmailFormSender" value="من"/>
+    <phrase id="EmailFormRecipient" value="الي"/>
+    <phrase id="EmailFormCc" value="نسخة"/>
+    <phrase id="EmailFormBcc" value="نسخة مخفية الوجهة"/>
+    <phrase id="EmailFormSubject" value="موضوع"/>
+    <phrase id="EmailFormMessage" value="رسالة"/>
+    <phrase id="EmailFormContentType" value="ارسال"/>
+    <phrase id="EmailFormContentTypeUrl" value="عنوان URL"/>
+    <phrase id="EmailFormContentTypeHtml" value="HTML"/>
+    <phrase id="EmptyLabel" value="(فارغ)"/><!-- v2020 -->
+    <phrase id="Enable2FA" value="تمكين المصادقة الثنائية"/><!-- v2022 -->
+    <phrase id="EnableChat" value="تمكين الدردشة"/><!-- v2024 -->
+    <phrase id="EnableNotifications" value="تمكين الإخطارات"/><!-- v2022 -->
+    <phrase id="EnterFilterName" value="أدخل اسم الفلتر"/><!-- v12 -->
+    <phrase id="EnterNewPassword" value="الرجاء إدخال كلمة المرور الجديدة"/>
+    <phrase id="EnterOldPassword" value="الرجاء إدخال كلمة المرور القديمة"/>
+    <phrase id="EnterPassword" value="الرجاء إدخال كلمة المرور"/>
+    <phrase id="EnterRequiredField" value="الرجاء إدخال الحقل المطلوب - %s"/><!-- v2021 -->
+    <phrase id="EnterSearchCriteria" value="الرجاء إدخال معايير البحث"/>
+    <phrase id="EnterSecurityCodeGoogle" value="الرجاء إدخال رمز الحماية من Google Authenticator (أو الرمز الاحتياطي)"/><!-- v2023 -->
+    <phrase id="EnterSecurityCodeEmail" value="الرجاء إدخال كلمة المرور لمرة واحدة المرسلة إلى حساب بريدك الإلكتروني (أو الرمز الاحتياطي)"/><!-- v2023 -->
+    <phrase id="EnterSecurityCodeSms" value="الرجاء إدخال كلمة المرور لمرة واحدة المرسلة إلى هاتفك المحمول (أو الرمز الاحتياطي)"/><!-- v2023 -->
+    <phrase id="EnterSecurityCode" value="الرجاء إدخال كلمة مرور لمرة واحدة للتحقق"/><!-- v2023 -->
+    <phrase id="EnterOTPEmailAddress" value="الرجاء إدخال حساب البريد الإلكتروني الخاص بك لتلقي كلمة المرور لمرة واحدة"/><!-- v2023 -->
+    <phrase id="EnterOTPMobileNumber" value="الرجاء إدخال رقم هاتفك المحمول للحصول على كلمة المرور لمرة واحدة"/><!-- v2023 -->
+    <phrase id="EnterUserName" value="Pالإيجار أدخل اسم المستخدم"/>
+    <phrase id="EnterValidateCode" value="الرجاء إدخال رمز التحقق"/><!-- v11 -->
+    <phrase id="EnterProperSenderEmail" value="تجاوز الحد الأقصى لعدد البريد الإلكتروني للمرسل أو عنوان البريد الإلكتروني غير صحيح"/>
+    <phrase id="EnterProperRecipientEmail" value="تجاوز الحد الأقصى لعدد البريد الإلكتروني للمستلم أو عنوان البريد الإلكتروني غير صحيح"/>
+    <phrase id="EnterProperCcEmail" value="تجاوز الحد الأقصى لعدد البريد الإلكتروني للنسخة أو عنوان البريد الإلكتروني غير صحيح"/>
+    <phrase id="EnterProperBccEmail" value="تجاوز الحد الأقصى لعدد البريد الإلكتروني مخفية الوجه أو عنوان البريد الإلكتروني غير صحيح"/>
+    <phrase id="EnterSubject" value="الرجاء إدخال الموضوع"/>
+    <phrase id="EnterValue" value="الرجاء إدخال القيمة"/><!-- v2021 -->
+    <phrase id="EnterValue2" value="الرجاء إدخال القيمة الثانية"/><!-- v2021 -->
+    <phrase id="Error" value="Error"/><!-- v2021 -->
+    <phrase id="ExactPhrase" value="العبارة بالضبط"/>
+    <phrase id="ExceedMaxRetry" value="تجاوز الحد الأقصى لعدد مرات إعادة محاولة تسجيل الدخول. يتم تأمين الحساب. يرجى المحاولة مرة أخرى %t دقائق"/>
+    <phrase id="ExceedMaxEmailExport" value="تجاوز الحد الأقصى لعدد البريد الإلكتروني للتصدير. الرجاء معاودة المحاولة في وقت لاحق"/>
+    <phrase id="ExportChart" value="تصدير الرسم البياني: "/><!-- v2020 -->
+    <phrase id="ExportChartData" value="تصدير بيانات الرسم البياني"/><!-- v2020 -->
+    <phrase id="ExportChartError" value="فشل تصدير الرسم البياني: "/><!-- v2020 -->
+    <phrase id="ExportClassNotFound" value="لم يتم العثور على فئة التصدير"/><!-- v2019 -->
+    <phrase id="Exporting" value="جاري التصدير الرجاء الانتظار ...."/><!-- v2018 -->
+    <phrase id="ExportToCsv" value="تصدير إلى CSV" class="icon-csv ew-icon"/><!-- v11 -->
+    <phrase id="ExportToEmail" value="بريد إلكتروني" class="fa-regular fa-envelope ew-icon"/><!-- v2023 -->
+    <phrase id="ExportToExcel" value="تصدير إلى Excel" class="icon-excel ew-icon"/><!-- v11 -->
+    <phrase id="ExportToHtml" value="تصدير إلى HTML" class="icon-html ew-icon"/><!-- v11 -->
+    <phrase id="ExportToPdf" value="تصدير إلى PDF" class="icon-pdf ew-icon"/><!-- v11 -->
+    <phrase id="ExportToWord" value="تصدير الي Word" class="icon-word ew-icon"/><!-- v11 -->
+    <phrase id="ExportToXml" value="تصدير الي XML" class="icon-xml ew-icon"/><!-- v11 -->
+    <phrase id="FailedToExport" value="فشل التصدير"/><!-- v2018 -->
+    <phrase id="FailedToSendMail" value="فشل في إرسال البريد الإلكتروني."/>
+    <phrase id="FieldName" value="اسم الحقل"/>
+    <phrase id="FieldRequiredIndicator" value="" class="fa-solid fa-asterisk ew-required"/><!-- v2023 -->
+    <phrase id="FileNotFound" value="لم يتم العثور على الملف"/>
+    <phrase id="Filter" value="فلتر" class="fa-solid fa-filter"/><!-- v2023 -->
+    <phrase id="FilterAllRecords" value="جميع السجلات"/><!-- v2022 -->
+    <phrase id="FilterCancel" value="الغاء"/><!-- v2022 -->
+    <phrase id="FilterCount" value="&lt;span class='badge rounded-pill text-bg-info ew-filter-count'&gt;%c&lt;/span&gt;"/><!-- v2024 -->
+    <phrase id="FilterName" value="اسم الفلتر"/><!-- v12 -->
+    <phrase id="FilterNoValue" value="لم يتم تحديد أي قيمة"/><!-- v2022 -->
+    <phrase id="FilterOK" value="نعم"/><!-- v2022 -->
+    <phrase id="Filters" value="فلاتر" class="fa-solid fa-filter ew-icon"/><!-- v2023 -->
+    <phrase id="ForceLogoutInProgress" value="فرض تسجيل الخروج قيد التقدم"/><!-- v2024 -->
+    <phrase id="ForceLogoutUserBtn" value="فرض الخروج"/><!-- v2024 -->
+    <phrase id="ForceLogoutUserSuccess" value="مستخدم '%u' تم تعيينه ليكون فرض تسجيل الخروج"/><!-- v2024 -->
+    <phrase id="ForceLogoutUserFailure" value="فشل في تسجيل خروج المستخدم '%u'"/><!-- v2024 -->
+    <phrase id="GeneratePassword" value="إنشاء كلمة المرور" class="fa-solid fa-bolt ew-icon"/><!-- v2023 -->
+    <phrase id="GetNewCodes" value="الحصول على رموز جديدة"/><!-- v2022 -->
+    <phrase id="GoBack" value="الرجوع"/>
+    <phrase id="GridAddCancelled" value="تم إلغاء إضافة الشبكة"/><!-- v11 -->
+    <phrase id="GridAddLink" value="إضافة الشبكة" class="icon-grid-add ew-icon"/><!-- v11 -->
+    <phrase id="GridCancelLink" value="الغاء" class="fa-solid fa-xmark ew-icon"/><!-- v2023 -->
+    <phrase id="GridEditCancelled" value="تم إلغاء تحرير الشبكة"/><!-- v11 -->
+    <phrase id="GridEditLink" value="تعديل الشبكة" class="icon-grid-edit ew-icon"/><!-- v11 -->
+    <phrase id="GridInsertLink" value="ادخال" class="fa-solid fa-check ew-icon"/><!-- v2023 -->
+    <phrase id="GridSaveLink" value="حفظ" class="fa-solid fa-check ew-icon"/><!-- v2023 -->
+    <phrase id="Group" value="مجموعات"/><!-- v2020 -->
+    <phrase id="GroupsPerPage" value="مجموعات لكل صفحة"/><!-- v2020 -->
+    <phrase id="Highlight" value="تسليط الضوء"/><!-- v11 -->
+    <phrase id="HighlightBtn" value="تسليط الضوء" class="fa-solid fa-highlighter ew-icon"/><!-- v2023 -->
+    <phrase id="HomePage" value="الرئيسية" class="fa-solid fa-house ew-icon"/><!-- v2023 -->
+    <phrase id="Import" value="استيراد" class="fa-solid fa-upload ew-icon"/><!-- v2023 -->
+    <phrase id="ImportMaxFailuresExceeded" value="الحد الأقصى لعدد الأخطاء (%s) تجاوزت"/><!-- v2023 -->
+    <phrase id="ImportRowError" value="فشل استيراد الصف #%i: %e"/><!-- v2023 -->
+    <phrase id="ImportInvalidFileExtension" value="ملحق الملف غير صالح '%e'"/><!-- v2023 -->
+    <phrase id="ImportInvalidFieldName" value="اسم الحقل غير صالح: %f"/><!-- v2023 -->
+    <phrase id="ImportInvalidFieldValue" value="قيمة الحقل غير صالحة '%f': %v"/><!-- v2023 -->
+    <phrase id="ImportNoHeaderRow" value="لا يوجد صف رأس للاستيراد"/><!-- v2023 -->
+    <phrase id="ImportResult" value="تمت معالجتها %c من %t السجلات من %f (success: %s, فشل: %e)"/><!-- v2023 -->
+    <phrase id="ImportSave" value="لم يتم حفظ السجلات بعد. إذا قبلت النتائج, اضغط 'حفظ' زر."/><!-- v2023 -->
+    <phrase id="ImportSave" value="لم يتم حفظ السجلات بعد. إذا قبلت النتائج, اضغط 'حفظ' زر."/><!-- v2023 -->
+    <phrase id="ImportServerError" value="فشلت معالجة الملف الذي تم تحميله(s)"/><!-- v2023 -->
+    <phrase id="ImportUploadError" value="فشل التحميل %f: %s"/><!-- v2023 -->
+    <phrase id="ImportUploadComplete" value="اكتمل التحميل، جاري معالجة الملف(s)..."/><!-- v2023 -->
+    <phrase id="ImportUploadProgress" value="جارٍ التحميل...(p%)"/><!-- v2023 -->
+    <phrase id="IncorrectCreditCard" value="رقم بطاقة الائتمان غير صحيح"/><!-- v2021 -->
+    <phrase id="IncorrectDate" value="تاريخ غير صحيح (%s)"/><!-- v2021 -->
+    <phrase id="IncorrectEmail" value="غير صحيح البريد الإلكتروني"/>
+    <phrase id="IncorrectField" value="قيمة الحقل غير صحيحة"/>
+    <phrase id="IncorrectFloat" value="رقم النقطة العائمة غير صحيح"/>
+    <phrase id="IncorrectGUID" value="المعرف الفريد العمومي (GUID) غير صحيح"/>
+    <phrase id="IncorrectInteger" value="عدد غير صحيح"/>
+    <phrase id="IncorrectMin" value="يجب أن يكون الرقم أكبر من أو يساوي %s"/><!-- v2023 -->
+    <phrase id="IncorrectMinDate" value="يجب أن يكون التاريخ/الوقت أحدث من أو مطابقًا لـ %s"/><!-- v2023 -->
+    <phrase id="IncorrectMax" value="يجب أن يكون الرقم أصغر من أو يساوي %s"/><!-- v2023 -->
+    <phrase id="IncorrectMaxDate" value="يجب أن يكون التاريخ/الوقت أقدم من أو متماثلًا %s"/><!-- v2023 -->
+    <phrase id="IncorrectPhone" value="رقم الهاتف غير صحيح"/>
+    <phrase id="IncorrectRange" value="يجب أن يكون الرقم بين %1 و %2"/>
+    <phrase id="IncorrectRegExp" value="التعبير العادي غير متطابق"/>
+    <phrase id="IncorrectSecurityCode" value="رمز الحماية غير صحيحة"/><!-- v2022 -->
+    <phrase id="IncorrectSSN" value="Iرقم الضمان الاجتماعي غير صحيح"/>
+    <phrase id="IncorrectTime" value="وقت غير صحيح (%s)"/><!-- v2022 -->
+    <phrase id="IncorrectUrl" value="URL غير صالح"/><!-- v2022 -->
+    <phrase id="IncorrectValidationCode" value="رمز التحقق غير صحيح، الرجاء إدخاله مرة أخرى."/><!-- v2021 -->
+    <phrase id="IncorrectZip" value="الرمز البريدي غير صحيح"/>
+    <phrase id="Info" value="معلومة"/><!-- v2020 -->
+    <phrase id="InlineAddLink" value="إضافة مضمنة" class="icon-inline-add ew-icon"/><!-- v11 -->
+    <phrase id="InlineCopyLink" value="نسخة مضمنة" class="icon-inline-copy ew-icon"/><!-- v11 -->
+    <phrase id="InlineEditLink" value="تحرير مضمن" class="icon-inline-edit ew-icon"/><!-- v11 -->
+    <phrase id="InsertCancelled" value="تم إلغاء الإدراج"/>
+    <phrase id="InsertFailed" value="فشل الإدراج"/>
+    <phrase id="InsertLink" value="إدراج" class="fa-solid fa-check ew-icon"/><!-- v2023 -->
+    <phrase id="InsertSuccess" value="تم الإدخال بنجاح"/>
+    <phrase id="InvalidDate" value="تاريخ غير صالح"/><!-- v2021 -->
+    <phrase id="InvalidKeyValue" value="قيمة المفتاح غير صالحة"/>
+    <phrase id="InvalidRecord" value="سجل غير صالح! المفتاح فارغ"/>
+    <phrase id="InvalidPostRequest" value="طلب نشر غير صالح"/><!-- v11 -->
+    <phrase id="InvalidParameter" value="معلمة غير صالحة"/>
+    <phrase id="InvalidPassword" value="رمز مرور خاطئ"/>
+    <phrase id="InvalidPasswordChars" value="يجب ألا تحتوي كلمة المرور &amp;, &lt;, &gt;, &quot;, or &apos;"/><!-- v2021 -->
+    <phrase id="InvalidNewPassword" value="كلمة المرور الجديدة غير صالحة"/>
+    <phrase id="InvalidUidPwd" value="اسم المستخدم أو كلمة المرور غير صحيحة"/>
+    <phrase id="InvalidUsernameChars" value="يجب ألا يحتوي اسم المستخدم &amp;, &lt;, &gt;, &quot;, or &apos;"/><!-- v2021 -->
+    <phrase id="JwtTokenExpired" value="لقد انتهت جلستك، يرجى تحديث صفحتك."/><!-- v2023 -->
+    <phrase id="Language" value="اللغة"/>
+    <phrase id="LearnMore" value="المزيد"/><!-- v2019 -->
+    <phrase id="LightboxTitle" value=" "/><!-- v11 -->
+    <phrase id="LightboxCurrent" value="الصورة {current} من {total}"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
+    <phrase id="LightboxPrevious" value="السابق"/><!-- v11 -->
+    <phrase id="LightboxNext" value="التالي"/><!-- v11 -->
+    <phrase id="LightboxClose" value="اغلاق"/><!-- v11 -->
+    <phrase id="LightboxXhrError" value="فشل تحميل هذا المحتوى."/><!-- v11 -->
+    <phrase id="LightboxImgError" value="فشل تحميل هذه الصورة."/><!-- v11 -->
+    <phrase id="List" value=""/><!-- v2019 -->
+    <phrase id="ListActionButton" value="أجراءات" class="fa-solid fa-ellipsis-vertical ew-icon"/><!-- v2024 -->
+    <phrase id="Loading" value="تحميل..."/>
+    <phrase id="Login" value="تسجيل الدخول" class="fa-solid fa-arrow-right-to-bracket ew-icon"/><!-- v2023 -->
+    <phrase id="LoginAfterPasswordChanged" value="تم تغيير كلمة السر. الرجاد الدخول على الحساب من جديد."/><!-- v2024 -->
+    <phrase id="LoginAzure" value="تسجيل الدخول باستخدام أزور" class="fa-brands fa-microsoft"/><!-- v2023 -->
+    <phrase id="LoginCancelled" value="تم إلغاء تسجيل الدخول"/>
+    <phrase id="LoginFacebook" value="تسجيل الدخول باستخدام الفيسبوك" class="fa-brands fa-facebook-f"/><!-- v2023 -->
+    <phrase id="LoginSucceeded" value="تم تسجيل الدخول بنجاح، جارٍ إعادة التوجيه..."/><!-- v2023 -->
+    <phrase id="LoginFailed" value="تسجيل الدخول مع %p فشل"/><!-- v2018 -->
+    <phrase id="LoginGoogle" value="تسجيل الدخول عبر جوجل" class="fa-brands fa-google"/><!-- v2023 -->
+    <phrase id="LoginMsg" value="قم بتسجيل الدخول لبدء جلستك"/><!-- v2019 -->
+    <phrase id="LoginOptions" value="خيارات"/><!-- v11 -->
+    <phrase id="LoginOr" value="- أو -"/><!-- v2018 -->
+    <phrase id="LoginSaml" value="تسجيل الدخول باستخدام SAML" class="fa-solid fa-user-shield"/><!-- v2023 -->
+    <phrase id="LoginPage" value="تسجيل الدخول"/>
+    <phrase id="Login2FAPage" value="تسجيل الدخول (توثيق ذو عاملين)"/><!-- v2022 -->
+    <phrase id="Logout" class="fa-solid fa-arrow-right-from-bracket ew-icon" value="تسجيل خروج"/><!-- v2023 -->
+    <phrase id="LookupTitle" value="ابحث عن - %s"/><!-- v2022 -->
+    <phrase id="MasterDetailCopyLink" value="نسخة رئيسية/تفصيلية" class="icon-md-copy ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailEditLink" value="تحرير رئيسي/تفصيلي" class="icon-md-edit ew-icon"/><!-- v11 -->
+    <phrase id="MasterDetailListLink" value="قائمة التفاصيل" class="fa-solid fa-table-list ew-icon"/><!-- v2023 -->
+    <phrase id="MasterDetailViewLink" value="عرض رئيسي/تفصيلي" class="icon-md-view ew-icon"/><!-- v11 -->
+    <phrase id="MaxFileSize" value="الأعلى. حجم الملف (%s bytes) تجاوزت."/>
+    <phrase id="MismatchPassword" value="كلمة المرور غير متطابقة"/>
+    <phrase id="MissingLookupTableName" value="اسم جدول البحث مفقود"/>
+    <phrase id="MissingDisplayFieldName" value="اسم حقل العرض مفقود"/>
+    <phrase id="MissingDisplayFieldValue" value="قيمة حقل العرض مفقودة"/>
+    <phrase id="MissingPDFObject" value="كائن PDF مفقود"/><!-- v2020 -->
+    <phrase id="MissingUserLevelID" value="معرف مستوى المستخدم مفقود"/>
+    <phrase id="MissingUserLevelName" value="اسم مستوى المستخدم مفقود"/>
+    <phrase id="MobileNumber" value="رقم الهاتف الجوال"/><!-- v2023 -->
+    <phrase id="MultiColumnCards" value="عرض البطاقات" class="fa-solid fa-table-cells-large ew-icon"/><!-- v2023 -->
+    <phrase id="MultiColumnTable" value="عرض جدول" class="fa-solid fa-table-list ew-icon"/><!-- v2023 -->
+    <phrase id="MultipleMasterDetails" value="ماجستير/تفصيل" class="icon-master-detail ew-icon"/><!-- v11 -->
+    <phrase id="NewPassword" value="كلمة المرور الجديدة"/><!-- v2021 -->
+    <phrase id="Next" value="التالي"/><!-- v12 -->
+    <phrase id="NoAddRecord" value="لا توجد سجلات لإضافتها"/>
+    <phrase id="NoFieldSelected" value="لم يتم تحديد أي حقل للتحديث"/>
+    <phrase id="NoPermission" value="ليس لديك الإذن للدخول %s."/><!-- v12 -->
+    <phrase id="NoAddPermission" value="ليس لديك الإذن بإضافة السجل."/>
+    <phrase id="NoChartData" value="لا توجد بيانات لعرض"/><!-- v2020 -->
+    <phrase id="NoDeletePermission" value="ليس لديك الإذن بحذف السجل."/>
+    <phrase id="NoDistinctColVals" value="لا توجد قيم أعمدة مميزة لـ SQL: "/><!-- v2020 -->
+    <phrase id="NoEditPermission" value="ليس لديك الإذن بتحرير السجل."/>
+    <phrase id="NoHtmlForm" value="لم يتم العثور على نموذج HTML"/><!-- v2022 -->
+    <phrase id="NoMenuItem" value="لم يتم العثور على عنصر القائمة"/><!-- v2024 -->
+    <phrase id="NoRecord" value="لا توجد سجلات"/><!-- v2017 -->
+    <phrase id="NoRecordForKey" value="لم يتم العثور على سجل للمفتاح = "/>
+    <phrase id="NoReportOrCharts" value="لا يوجد تقرير أو مخططات متاحة لهذه الصفحة."/><!-- v2020 -->
+    <phrase id="NoRecordSelected" value="لم يتم تحديد أي سجلات"/>
+    <phrase id="NoSubscription" value="ليس لديك اشتراك"/><!-- v2022 -->
+    <phrase id="NoSubscriptions" value="لم يتم العثور على أي اشتراكات"/><!-- v2022 -->
+    <phrase id="NoTableGenerated" value="لم يتم إنشاء أي جداول"/>
+    <phrase id="Notice" value="ملاحظة"/><!-- v2021 -->
+    <phrase id="Notifications" value="إشعارات" class="fa-solid fa-bell ew-icon"/><!-- v2023 -->
+    <phrase id="NotificationsDisabled" value="تم تعطيل الإخطارات"/><!-- v2022 -->
+    <phrase id="NotificationsEnabled" value="تم تمكين الإخطارات"/><!-- v2022 -->
+    <phrase id="NoUserLevel" value="لا توجد إعدادات على مستوى المستخدم."/>
+    <phrase id="NullLabel" value="(Null)"/><!-- v2020 -->
+    <phrase id="Of" value="من"/><!-- v2017 -->
+    <phrase id="OKBtn" value="موافق"/><!-- v2021 -->
+    <phrase id="Old" value="قديم"/>
+    <phrase id="OldPassword" value="كلمة المرور القديمة"/><!-- v2021 -->
+    <phrase id="OverwriteBtn" value="الكتابة فوق"/><!-- v2017 -->
+    <phrase id="OverwriteLink" value="الكتابة فوق"/>
+    <phrase id="Page" value="صفحة"/><!-- v2017 -->
+    <phrase id="PageNotFound" value="طريق '%p' غير معثور عليه."/><!-- v2021 -->
+    <phrase id="PagerFirst" value="الاول"/>
+    <phrase id="PagerLast" value="الاخير"/>
+    <phrase id="PagerNext" value="التالي"/>
+    <phrase id="PagerPrevious" value="السابق"/>
+    <phrase id="Password" value="كلمة المرور"/><!-- v2021 -->
+    <phrase id="PasswordMask" value="********"/><!-- v12 -->
+    <phrase id="PasswordRequest" value="طلب كلمة المرور"/>
+    <phrase id="PasswordChanged" value="تم تغيير كلمة السر"/>
+    <phrase id="PasswordExpired" value="انتهت كلمة المرور. الرجاء تغيير كلمة المرور."/>
+    <phrase id="PasswordStrength" value="قوة: %p"/><!-- v12 -->
+    <phrase id="PasswordTooSimple" value="كلمة المرور الخاصة بك بسيطة للغاية"/><!-- v12 -->
+    <phrase id="Permission" value="الأذونات" class="fa-solid fa-user ew-icon"/><!-- v2023 -->
+    <phrase id="PermissionAdd" value="اضافة/نسخ"/><!-- v2020 -->
+    <phrase id="PermissionAdmin" value="مسؤل"/><!-- v2019 -->
+    <phrase id="PermissionDelete" value="حذف"/><!-- v2018 -->
+    <phrase id="PermissionEdit" value="تعديل"/><!-- v2018 -->
+    <phrase id="PermissionExport" value="تصدير"/><!-- v2023 -->
+    <phrase id="PermissionImport" value="استيراد"/><!-- v2020 -->
+    <phrase id="PermissionListSearchView" value="قائمة / بحث / عرض"/><!-- v2018 -->
+    <phrase id="PermissionList" value="القائمة"/><!-- v2018 -->
+    <phrase id="PermissionLookup" value="ابحث عن"/><!-- v2020 -->
+    <phrase id="PermissionPush" value="ادفع"/><!-- v2023 -->
+    <phrase id="PermissionSearch" value="بحث"/><!-- v2018 -->
+    <phrase id="PermissionView" value="معاينة"/><!-- v2018 -->
+    <phrase id="PersonalDataBtn" value="بيانات شخصية"/><!-- v2019 -->
+    <phrase id="PersonalDataContent" value="يحتوي حسابك على البيانات الشخصية التي قدمتها لنا. تتيح لك هذه الصفحة تنزيل تلك البيانات أو حذفها."/><!-- v2019 -->
+    <phrase id="PersonalDataDeleteFailure" value="حدث خطأ غير متوقع أثناء حذف المستخدم"/><!-- v2019 -->
+    <phrase id="PersonalDataDeleteSuccess" value="تم حذف البيانات الشخصية بنجاح"/><!-- v2019 -->
+    <phrase id="PersonalDataTitle" value="بيانات شخصية"/><!-- v2019 -->
+    <phrase id="PersonalDataWarning" value="سيؤدي حذف هذه البيانات إلى إزالة حسابك نهائيًا، ولا يمكن استرداد ذلك."/><!-- v2019 -->
+    <phrase id="PleaseSelect" value="الرجاء التحديد"/><!-- v12 -->
+    <phrase id="Prev" value="السابق"/><!-- v12 -->
+    <phrase id="PrimaryKeyUnspecified" value="المفتاح الأساسي غير محدد"/>
+    <phrase id="PrinterFriendly" value="طباعة" class="fa-solid fa-print ew-icon"/><!-- v2023 -->
+    <phrase id="PrivacyPolicy" value="سياسة الخصوصية"/><!-- v2019 -->
+    <phrase id="PrivacyPolicyContent" value="استخدم هذه الصفحة لتوضيح سياسة الخصوصية الخاصة بموقعك."/><!-- v2019 -->
+    <phrase id="PushNotificationDefaultTitle" value="إشعار جديد"/><!-- v2022 -->
+    <phrase id="PushNotificationFormTitle" value="عنوان"/><!-- v2022 -->
+    <phrase id="PushNotificationFormBody" value="Body"/><!-- v2022 -->
+    <phrase id="PushNotificationFailure" value="فشل في إرسال إشعارات الدفع (فشل = %f)"/><!-- v2022 -->
+    <phrase id="PushNotificationSent" value="إشعارات الدفع هي sent&lt;br&gt;(نجاح = %s, فشل = %f)"/><!-- v2022 -->
+    <phrase id="PushNotificationSuccess" value="يتم إرسال جميع إشعارات الدفع (نجاح = %s)"/><!-- v2022 -->
+    <phrase id="QueryBuilder" value="منشئ الاستعلام" class="fa-solid fa-sliders ew-icon"/><!-- v2023 -->
+    <phrase id="QuickSearchAuto" value="آلي"/><!-- v11 -->
+    <phrase id="QuickSearchAutoShort" value=""/><!-- v11 -->
+    <phrase id="QuickSearchAll" value="جميع الكلمات الرئيسية"/><!-- v11 -->
+    <phrase id="QuickSearchAllShort" value="الكل"/><!-- v11 -->
+    <phrase id="QuickSearchAny" value="أي كلمات رئيسية"/><!-- v11 -->
+    <phrase id="QuickSearchAnyShort" value="أي"/><!-- v11 -->
+    <phrase id="QuickSearchExact" value="تطابق تام"/><!-- v11 -->
+    <phrase id="QuickSearchExactShort" value="بالضبط"/><!-- v11 -->
+    <phrase id="Recipient" value="متلقي(s)"/><!-- v2021 -->
+    <phrase id="Record" value="سجل"/><!-- v2022 -->
+    <phrase id="RecordChangedByOtherUser" value="تم تغيير البيانات من قبل مستخدم آخر. انقر فوق [تحديث] لاسترداد البيانات التي تم تغييرها (ستتم الكتابة فوق بياناتك الموجودة في النموذج) أو انقر فوق [الكتابة فوق] لاستبدال البيانات التي تم تغييرها."/>
+    <phrase id="RecordDeleted" value="سِجِلّ(s) تم الحذف"/>
+    <phrase id="RecordInserted" value="سِجِلّ(s) تم الادخال"/>
+    <phrase id="RecordUpdated" value="سِجِلّ(s) تم التحديث"/>
+    <phrase id="RecordsPerPage" value="حجم الصفحة"/><!-- v2017 -->
+    <phrase id="Register" value="التسجيل"/><!-- v2020 -->
+    <phrase id="RegisterBtn" value="التسجيل"/>
+    <phrase id="RegisterSuccess" value="نجح التسجيل"/>
+    <phrase id="RegisterSuccessActivate" value="نجح التسجيل. تم إرسال بريد إلكتروني إلى عنوان بريدك الإلكتروني، يرجى النقر على الرابط الموجود في البريد الإلكتروني لتفعيل حسابك."/>
+    <phrase id="RegisterPage" value="التسجيل"/>
+    <phrase id="RelatedRecordRequired" value="لا يمكنك إضافة سجل أو تحديثه لأن قيمة المفتاح الخارجي غير موجودة في الجدول الرئيسي '%t'"/>
+    <phrase id="RelatedRecordExists" value="لا يمكنك حذف سجل لأن السجلات المرتبطة موجودة في جدول التفاصيل '%t'"/>
+    <phrase id="ReloadBtn" value="إعادة تحميل"/><!-- v2017 -->
+    <phrase id="ReloadLink" value="إعادة تحميل"/>
+    <phrase id="RememberMe" value="تذكرنى"/>
+    <phrase id="Remove" value="ازالة"/>
+    <phrase id="Replace" value="استبدال"/>
+    <phrase id="Report" value="تقرير"/>
+    <phrase id="ResetPasswordResponse" value="ستتلقى تعليمات استعادة كلمة المرور قريبًا إذا كان عنوان بريدك الإلكتروني مسجلاً."/><!-- v2019 -->
+    <phrase id="ResetPassword" value="إعادة تعيين كلمة المرور"/><!-- v2020 -->
+    <phrase id="ResetPwd" value="إعادة تعيين كلمة المرور"/><!-- v2020 -->
+    <phrase id="ResetPwdTitle" value="إعادة تعيين كلمة المرور"/><!-- v2023 -->
+    <phrase id="ResendRegisterEmailBtn" value="إعادة إرسال البريد الإلكتروني للتسجيل"/><!-- v12 -->
+    <phrase id="ResendRegisterEmailSuccess" value="البريد الإلكتروني للتسجيل للمستخدم '%u' تم إعادة إرسالها"/><!-- v12 -->
+    <phrase id="ResendRegisterEmailFailure" value="فشل في إعادة إرسال البريد الإلكتروني الخاص بالتسجيل للمستخدم '%u'"/><!-- v12 -->
+    <phrase id="Reset" value="إعادة ضبط"/>
+    <phrase id="ResetAllFilter" value="إعادة ضبط جميع المرشحات" class="icon-reset-search ew-icon"/><!-- v2020 -->
+    <phrase id="ResetConcurrentUserBtn" value="إعادة تعيين جلسة المستخدم المتزامنة"/><!-- v12 -->
+    <phrase id="ResetConcurrentUserSuccess" value="جلسة للمستخدم '%u' تم إعادة تعيين"/><!-- v12 -->
+    <phrase id="ResetConcurrentUserFailure" value="فشل في إعادة تعيين الجلسة للمستخدم '%u'"/><!-- v12 -->
+    <phrase id="ResetLoginRetryBtn" value="إعادة تعيين عدد مرات إعادة محاولة تسجيل الدخول"/><!-- v12 -->
+    <phrase id="ResetLoginRetrySuccess" value="عدد مرات إعادة محاولة تسجيل الدخول للمستخدم '%u' تم إعادة تعيين"/><!-- v12 -->
+    <phrase id="ResetLoginRetryFailure" value="فشل في إعادة تعيين عدد مرات إعادة محاولة تسجيل الدخول للمستخدم '%u'"/><!-- v12 -->
+    <phrase id="ResetSearchBtn" value="إعادة ضبط" class="icon-reset-search ew-icon"/><!-- v11 -->
+    <phrase id="ResetSearch" value="إعادة ضبط"/>
+    <phrase id="ResetUserSecretBtn" value="إعادة تعيين سر المستخدم"/><!-- v2022 -->
+    <phrase id="ResetUserSecretSuccess" value="سر المستخدم للمستخدم '%u' تم إعادة تعيين"/><!-- v2022 -->
+    <phrase id="ResetUserSecretFailure" value="فشل في إعادة تعيين سر المستخدم للمستخدم '%u'"/><!-- v2022 -->
+    <phrase id="RptAvg" value="متوسط"/><!-- v2020 -->
+    <phrase id="RptCnt" value="عدد"/><!-- v2020 -->
+    <phrase id="RptDtlRec" value=" سجلات التفاصيل"/><!-- v2020 -->
+    <phrase id="RptGrandSummary" value="ملخص الكبرى"/><!-- v2020 -->
+    <phrase id="RptMax" value="الاعلى"/><!-- v2020 -->
+    <phrase id="RptMin" value="MIN"/><!-- v2020 -->
+    <phrase id="RptPageSummary" value="ملخص الصفحة"/><!-- v2020 -->
+    <phrase id="RptSum" value="المجموع"/><!-- v2020 -->
+    <phrase id="RptSumHead" value="ملخص ل %c: %v"/><!-- v2020 -->
+    <phrase id="SaveBtn" value="حفظ"/><!-- v2018 -->
+    <phrase id="SaveCurrentFilter" value="حفظ الفلتر الحالي"/><!-- v12 -->
+    <phrase id="Scan2FAQrCode" value="بعد تثبيت Google Authenticator، قم بمسح رمز الاستجابة السريعة أعلاه وأدخل رمز التحقق"/><!-- v2022 -->
+    <phrase id="Search" value="بحث"/><!-- v2017 -->
+    <phrase id="SearchBtn" value="بحث"/><!-- v2018 -->
+    <phrase id="SearchLink" value="بحث" class="fa-solid fa-magnifying-glass ew-icon"/><!-- v2023 -->
+    <phrase id="SearchPanel" value="لوحة البحث"/><!-- v11 -->
+    <phrase id="SecurityCode" value="رمز الحماية"/><!-- v2022 -->
+    <phrase id="SecurityCodeVerified" value="تم التحقق من رمز الأمان، جارٍ إعادة التوجيه..."/><!-- v2022 -->
+    <phrase id="SelectAll" value="اختر الكل"/><!-- v2022 -->
+    <phrase id="SelectBtn" value="اختر"/><!-- v2017 -->
+    <phrase id="SendEmailBtn" value="ارسال"/>
+    <phrase id="SendEmailSuccess" value="تم إرسال البريد الإلكتروني بنجاح"/>
+    <phrase id="Sender" value="مرسل"/><!-- v2021 -->
+    <phrase id="SendOTP" value="إرسال كلمة المرور لمرة واحدة"/><!-- v2023 -->
+    <phrase id="SendOTPConfirm" value="هل أنت متأكد أنك تريد إرسال كلمة المرور لمرة واحدة؟"/><!-- v2023 -->
+    <phrase id="SendOTPSuccess" value="تم إرسال كلمة المرور لمرة واحدة بنجاح."/><!-- v2023 -->
+    <phrase id="SendOTPFailed" value="لم يتم إرسال كلمة المرور لمرة واحدة مع وجود خطأ: %e"/><!-- v2023 -->
+    <phrase id="SendOTPSkipped" value="تم تخطي كلمة المرور لمرة واحدة لحساب غير صالح '%a' of مستخدم '%u'"/><!-- v2023 -->
+    <phrase id="SendOTPCancelled" value="يتم إلغاء كلمة المرور لمرة واحدة من قبل المستخدم"/><!-- v2023 -->
+    <phrase id="SendPushNotification" value="إرسال إشعارات الدفع" class="fa-solid fa-bell ew-icon"/><!-- v2023 -->
+    <phrase id="SendPushNotificationBtn" value="ارسال"/><!-- v2022 -->
+    <phrase id="SendPushNotificationsToAll" value="لم يتم تحديد أي اشتراكات. إرسال إشعارات الدفع للجميع؟"/><!-- v2022 -->
+    <phrase id="SendPwd" value="ارسال"/><!-- v2020 -->
+    <phrase id="SequenceNumber" value="%s."/>
+    <phrase id="ServerCommunicationError" value="حدث خطأ أثناء الاتصال بالخادم."/><!-- v2022 -->
+    <phrase id="ServerError" value="لقد حدث خطأ داخلي أثناء معالجة طلبك."/><!-- v2021 -->
+    <phrase id="SessionWillExpire" value="ستنتهي جلستك في %s ثواني. انقر فوق موافق لمواصلة جلستك."/><!-- v12 -->
+    <phrase id="SessionExpired" value="انتهت صلاحية جلسة العمل الخاصة بك."/><!-- v12 -->
+    <phrase id="SetPasswordExpiredBtn" value="انتهت صلاحية تعيين كلمة المرور"/><!-- v12 -->
+    <phrase id="SetPasswordExpiredSuccess" value="كلمة المرور للمستخدم '%u' تم تعيينه على أنه منتهية الصلاحية"/><!-- v12 -->
+    <phrase id="SetPasswordExpiredFailure" value="فشل في تعيين كلمة المرور للمستخدم '%u' كما انتهت صلاحيتها"/><!-- v12 -->
+    <phrase id="ShowAllBtn" value="عرض الكل" class="icon-reset-search ew-icon"/><!-- v11 -->
+    <phrase id="ShowAll" value="عرض الكل"/><!-- v11 -->
+    <phrase id="Skip" value="تخطي"/><!-- v2023 -->
+    <phrase id="SortUp" value="تصاعدي" class="fa-solid fa-sort-up"/><!-- v2023 -->
+    <phrase id="SortDown" value="تنازلي" class="fa-solid fa-sort-down"/><!-- v2023 -->
+    <phrase id="Subject" value="الموضوع"/><!-- v2021 -->
+    <phrase id="Success" value="نجاح"/><!-- v2020 -->
+    <phrase id="Summary" value="ملخص"/><!-- v2020 -->
+    <phrase id="SummaryColon" value=": "/><!-- v2020 -->
+    <phrase id="Table" value="طاولة"/>
+    <phrase id="Tables" value="الجداول"/><!-- v2022 -->
+    <phrase id="ThemeAuto" value="آلي" class="fa-solid fa-circle-half-stroke ew-icon"/><!-- v2024 -->
+    <phrase id="ThemeDark" value="تصميم غامق" class="fa-solid fa-moon ew-icon"/><!-- v2024 -->
+    <phrase id="ThemeLight" value="تصميم فاتح" class="fa-regular fa-sun ew-icon"/><!-- v2024 -->
+    <phrase id="To" value="الي"/>
+    <phrase id="ToggleTheme" value="تبديل التصميم"/><!-- v2024 -->
+    <phrase id="Top" value="اعلي"/><!-- v2020 -->
+    <phrase id="Total" value="المجموع"/>
+    <phrase id="UnauthorizedUserID" value="المستخدم الحالي (%c) غير مصرح له بتعيين معرف المستخدم (%u)."/>
+    <phrase id="UnauthorizedParentUserID" value="المستخدم الحالي (%c) غير مصرح له بتعيين معرف المستخدم الأصل (%p)."/>
+    <phrase id="UnauthorizedMasterUserID" value="المستخدم الحالي (%c) غير مصرح له بإدراج السجل. مرشح رئيسي: %f"/>
+    <phrase id="UnsupportedBrowser" value="متصفحك غير مدعوم من هذه الصفحة"/><!-- v2021 -->
+    <phrase id="Update" value="تحديث"/>
+    <phrase id="UpdateBtn" value="تحديث"/><!-- v2017 -->
+    <phrase id="UpdateCancelled" value="تم إلغاء التحديث"/>
+    <phrase id="UpdateFailed" value="فشل التحديث"/>
+    <phrase id="UpdateLink" value="تحديث" class="fa-solid fa-check ew-icon"/><!-- v2023 -->
+    <phrase id="UpdateSelectedLink" value="تحديث السجلات المحددة" class="fa-solid fa-pen ew-icon"/><!-- v2023 -->
+    <phrase id="UpdateSomeRecordsFailed" value="فشل التحديث للسجلات التي تحتوي على مفاتيح: %k"/><!-- v2022 -->
+    <phrase id="UpdateSuccess" value="تم التحديث بنجاح"/>
+    <phrase id="Uploading" value="جارٍ التحميل..."/>
+    <phrase id="UploadStart" value="ابداء"/>
+    <phrase id="UploadCancel" value="إلغاء"/>
+    <phrase id="UploadDelete" value="حذف"/>
+    <phrase id="UploadOverwrite" value="هل تريد الكتابة فوق الملف القديم؟"/>
+    <phrase id="UploadError1" value="يتجاوز حجم الملف الذي تم تحميله توجيه حجم الملف upload_max_file php.ini"/><!-- v2023 -->
+    <phrase id="UploadError2" value="يتجاوز حجم الملف الذي تم تحميله التوجيه MAX_FILE_SIZE الذي تم تحديده فيه the HTML form"/><!-- v2023 -->
+    <phrase id="UploadError3" value="تم تحميل الملف الذي تم تحميله جزئيًا فقط"/><!-- v2023 -->
+    <phrase id="UploadError4" value="لا يوجد ملف تم تحميله"/><!-- v2023 -->
+    <phrase id="UploadError6" value="في عداد المفقودين مجلد مؤقت"/><!-- v2023 -->
+    <phrase id="UploadError7" value="فشل في إرسال الملف إلى القرص"/><!-- v2023 -->
+    <phrase id="UploadError8" value="A PHP الامتداد أوقف تحميل الملف"/><!-- v2023 -->
+    <phrase id="UploadErrorPostMaxSize" value="يتجاوز حجم الملف الذي تم تحميله توجيه post_max_size php.ini"/><!-- v2023 -->
+    <phrase id="UploadErrorMaxFileSize" value="الملف كبير جدا"/><!-- v2023 -->
+    <phrase id="UploadErrorMinFileSize" value="الملف صغير جدًا"/><!-- v2023 -->
+    <phrase id="UploadErrorAcceptFileTypes" value="الملف المطبوع سري"/><!-- v2023 -->
+    <phrase id="UploadErrorMaxNumberOfFiles" value="تم تجاوز الحد الأقصى لعدد الملفات"/><!-- v2023 -->
+    <phrase id="UploadErrorMaxWidth" value="تتجاوز الصورة الحد الأقصى للعرض"/><!-- v2023 -->
+    <phrase id="UploadErrorMinWidth" value="الصورة تتطلب الحد الأدنى من العرض"/><!-- v2023 -->
+    <phrase id="UploadErrorMaxHeight" value="الصورة تتجاوز الحد الأقصى للارتفاع"/><!-- v2023 -->
+    <phrase id="UploadErrorMinHeight" value="الصورة تتطلب الحد الأدنى من الارتفاع"/><!-- v2023 -->
+    <phrase id="UploadErrorMaxFileLength" value="إجمالي طول أسماء الملفات يتجاوز طول الحقل"/>
+    <phrase id="UserAdministrator" value="مدير"/><!-- v12 -->
+    <phrase id="UserAnonymous" value="مجهول"/><!-- v12 -->
+    <phrase id="UserDefault" value="افتراضي"/><!-- v12 -->
+    <phrase id="UserEmail" value="بريد إلكتروني"/>
+    <phrase id="UserExists" value="المستخدم موجود بالفعل"/>
+    <phrase id="UserLevel" value="مستوى المستخدم: "/>
+    <phrase id="UserLevelAdministratorName" value="يجب أن يكون اسم مستوى المستخدم لمستوى المستخدم -1 'مدير'"/>
+    <phrase id="UserLevelAnonymousName" value="يجب أن يكون اسم مستوى المستخدم لمستوى المستخدم -2'مجهول'"/><!-- v12 -->
+    <phrase id="UserLevelPermission" value="أذونات مستوى المستخدم"/>
+    <phrase id="UserLevelIDInteger" value="يجب أن يكون معرف مستوى المستخدم عددًا صحيحًا"/>
+    <phrase id="UserLevelDefaultName" value="يجب أن يكون اسم مستوى المستخدم لمستوى المستخدم 0 'افتراضي'"/>
+    <phrase id="UserLevelIDIncorrect" value="يجب أن يكون معرف مستوى المستخدم المحدد أكبر من 0"/>
+    <phrase id="UserLevelNameIncorrect" value="لا يمكن أن يكون اسم مستوى المستخدم المحدد من قبل المستخدم 'مجهول', 'مدير' او 'افتراضي'"/>
+    <phrase id="UserLoggedIn" value="مستخدم '%u' تم تسجيل الدخول بالفعل"/>
+    <phrase id="UserName" value="اسم المستخدم"/><!-- v2021 -->
+    <phrase id="UserNotFound" value="مستخدم '%u' غير موجود"/><!-- v2018 -->
+    <phrase id="UserForceLogout" value="لقد تم تسجيل الخروج من جلستك."/><!-- v2024 -->
+    <phrase id="ValueNotExist" value="القيمة غير موجودة"/><!-- v11 -->
+    <phrase id="Verify" value="يؤكد"/><!-- v2022 -->
+    <phrase id="View" value="عرض"/>
+    <phrase id="ViewImageGallery" value="انقر لعرض الصورة"/><!-- v12 -->
+    <phrase id="ViewLink" value="عرض" class="icon-view ew-icon"/><!-- v11 -->
+    <phrase id="ViewPageAddLink" value="اضافة" class="fa-solid fa-plus ew-icon"/><!-- v2023 -->
+    <phrase id="ViewPageCopyLink" value="نسخ" class="fa-regular fa-copy ew-icon"/><!-- v2023 -->
+    <phrase id="ViewPageDeleteLink" value="حذف" class="fa-solid fa-trash ew-icon"/><!-- v2023 -->
+    <phrase id="ViewPageDetailLink" value=""/>
+    <phrase id="ViewPageEditLink" value="تعديل" class="fa-solid fa-pen ew-icon"/><!-- v2023 -->
+    <phrase id="Warning" value="تحذير"/><!-- v2020 -->
+    <phrase id="Week" value="اسبوع"/><!-- v2020 -->
+    <phrase id="WrongFileType" value="نوع الملف غير مسموح به."/>
+    <phrase id="Year" value="سنة"/><!-- v2020 -->
+    <phrase id="=" value="&amp;nbsp;"/><!-- v12 -->
+    <phrase id="EQUAL" value="="/><!-- v12 -->
+    <phrase id="IN" value="في"/><!-- v2023 -->
+    <phrase id="NOT IN" value="ليس في"/><!-- v2023 -->
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+    <phrase id="&lt;" value="&amp;lt;"/>
+    <phrase id="&lt;=" value="&amp;lt;="/>
+    <phrase id="&gt;" value="&amp;gt;"/>
+    <phrase id="&gt;=" value="&amp;gt;="/>
+    <phrase id="LIKE" value="يتضمن"/>
+    <phrase id="NOT LIKE" value="لا يحتوي"/><!-- v2023 -->
+    <phrase id="STARTS WITH" value="ابداء بـ"/>
+    <phrase id="NOT STARTS WITH" value="لا يبدأ بـ"/><!-- v2023 -->
+    <phrase id="ENDS WITH" value="ينتهي بـ"/>
+    <phrase id="NOT ENDS WITH" value="لا ينتهي مع"/><!-- v2023 -->
+    <phrase id="IS EMPTY" value="فارغ"/><!-- v2023 -->
+    <phrase id="IS NOT EMPTY" value="ليس فارغا"/><!-- v2023 -->
+    <phrase id="IS NULL" value="is null"/>
+    <phrase id="IS NOT NULL" value="is not null"/>
+    <phrase id="BETWEEN" value="ما بين"/>
+    <phrase id="NOT BETWEEN" value="ليس بينهما"/><!-- v2023 -->
+    <phrase id="AND" value="و"/>
+    <phrase id="OR" value="أو"/>
+<!-- Advanced Filter --><!-- v2020 -->
+    <phrase id="Future" value="مستقبل"/>
+    <phrase id="Past" value="ماضي"/>
+    <phrase id="Last14Days" value="آخر 14 يومًا"/>
+    <phrase id="Last30Days" value="آخر 30 يومًا"/>
+    <phrase id="Last7Days" value="اخر 7 ايام"/>
+    <phrase id="Next14Days" value="الـ 14 يومًا القادمة"/>
+    <phrase id="Next30Days" value="الثلاثين يومًا القادمة"/>
+    <phrase id="Next7Days" value="7 أيام القادمة"/>
+    <phrase id="Today" value="اليوم"/>
+    <phrase id="Tomorrow" value="غداً"/>
+    <phrase id="Yesterday" value="امس"/>
+    <phrase id="LastMonth" value="الشهر الماضي"/>
+    <phrase id="NextMonth" value="الشهر القادم"/>
+    <phrase id="ThisMonth" value="هذا الشهر"/>
+    <phrase id="LastTwoWeeks" value="الاسبوعين الماضيين"/>
+    <phrase id="LastWeek" value="الأسبوع الماضي"/>
+    <phrase id="NextTwoWeeks" value="الاسبوعين المقبلين"/>
+    <phrase id="NextWeek" value="الأسبوع المقبل"/>
+    <phrase id="ThisWeek" value="هذا الاسبوع"/>
+    <phrase id="LastYear" value="العام الماضي"/>
+    <phrase id="NextYear" value="العام القادم"/>
+    <phrase id="ThisYear" value="هذا العام"/>
+<!-- Exceptions --><!-- v2021 -->
+    <phrase id="400" value="اقتراح غير جيد"/>
+    <phrase id="400Desc" value="لا يستطيع الخادم معالجة الطلب أو لن يقوم بذلك بسبب خطأ واضح في العميل."/>
+    <phrase id="401" value="غير مصرح"/>
+    <phrase id="401Desc" value="يتطلب الطلب مصادقة مستخدم صالحة."/>
+    <phrase id="403" value="Forbidden"/>
+    <phrase id="403Desc" value="غير مسموح لك بإجراء العملية المطلوبة."/>
+    <phrase id="404" value="لا يوجد"/>
+    <phrase id="404Desc" value="لا يمكن العثور على المورد المطلوب. الرجاء التحقق من URI والمحاولة مرة أخرى."/>
+    <phrase id="405" value="الطريقة غير مسموحة"/>
+    <phrase id="405Desc" value="أسلوب الطلب غير مدعوم للمورد المطلوب."/>
+    <phrase id="500" value="خطأ في الخادم الداخلي"/>
+    <phrase id="500Desc" value="تمت مواجهة حالة غير متوقعة تمنع الخادم من تلبية الطلب."/>
+    <phrase id="501" value="لم تنفذ"/>
+    <phrase id="501Desc" value="لا يدعم الخادم الوظيفة المطلوبة لتلبية الطلب."/>
+    <phrase id="503" value="الموقع تحت الصيانة"/><!-- v2024 -->
+    <phrase id="503Desc" value="الخادم غير جاهز للتعامل مع الطلب."/><!-- v2024 -->
+<!-- DO NOT change letter case of the following IDs! -->
+<!-- Datetime Picker --><!-- v2023 -->
+    <datetimepicker>
+        <phrase id="today" value="اذهب الى اليوم"/>,
+        <phrase id="clear" value="مسح التحديد"/>,
+        <phrase id="close" value="أغلق المنتقي"/>,
+        <phrase id="selectMonth" value="اختر الشهر"/>,
+        <phrase id="previousMonth" value="الشهر الماضى"/>,
+        <phrase id="nextMonth" value="الشهر القادم"/>,
+        <phrase id="selectYear" value="اختر السنة"/>,
+        <phrase id="previousYear" value="السنة الماضية"/>,
+        <phrase id="nextYear" value="العام القادم"/>,
+        <phrase id="selectDecade" value="حدد العقد"/>,
+        <phrase id="previousDecade" value="العقد السابق"/>,
+        <phrase id="nextDecade" value="العقد القادم"/>,
+        <phrase id="previousCentury" value="القرن السابق"/>,
+        <phrase id="nextCentury" value="القرن القادم"/>,
+        <phrase id="pickHour" value="اختر ساعة"/>,
+        <phrase id="incrementHour" value="ساعة الزيادة"/>,
+        <phrase id="decrementHour" value="ساعة التخفيض"/>,
+        <phrase id="pickMinute" value="اختر دقيقة"/>,
+        <phrase id="incrementMinute" value="زيادة الدقيقة"/>,
+        <phrase id="decrementMinute" value="إنقاص الدقيقة"/>,
+        <phrase id="pickSecond" value="اختر الثانية"/>,
+        <phrase id="incrementSecond" value="زيادة الثانية"/>,
+        <phrase id="decrementSecond" value="إنقاص الثانية"/>,
+        <phrase id="toggleMeridiem" value="Toggle Meridiem"/>,
+        <phrase id="selectTime" value="حدد الوقت"/>,
+        <phrase id="selectDate" value="حدد تاريخ"/>
+    </datetimepicker>
+<!-- Select2 --><!-- v2022 -->
+    <select2>
+        <phrase id="errorLoading" value="لا يمكن تحميل النتائج."/>
+        <phrase id="inputTooLong" value="احذف من فضلك %s شخصية(s)"/>
+        <phrase id="inputTooShort" value="من فضلك ادخل %s أو أكثر من الشخصيات"/>
+        <phrase id="loadingMore" value="جارٍ تحميل المزيد..."/>
+        <phrase id="maximumSelected" value="يمكنك الاختيار فقط %s غرض(s)"/>
+        <phrase id="noResults" value="لم يتم العثور على نتائج"/>
+        <phrase id="searching" value="يبحث..."/>
+        <phrase id="removeAllItems" value="إزالة كافة العناصر"/>
+        <phrase id="removeItem" value="إزالة بند"/>
+        <phrase id="search" value="بحث"/>
+    </select2>
+<!-- jQuery Query Builder --><!-- v2023 -->
+    <querybuilderjs>
+        <phrase id="add_rule" value="أضف القاعدة"/>
+        <phrase id="add_group" value="اضافة مجموعة"/>
+        <phrase id="delete_rule" value="حذف"/>
+        <phrase id="delete_group" value="حذف"/>
+        <phrase id="invert" value="عكس"/>
+        <phrase id="NOT" value="لا"/>
+        <conditions>
+            <phrase id="AND" value="و"/>
+            <phrase id="OR" value="أو"/>
+        </conditions>
+        <operators>
+            <phrase id="equal" value="="/>
+            <phrase id="not_equal" value="&amp;lt;&amp;gt;"/>
+            <phrase id="in" value="في"/>
+            <phrase id="not_in" value="ليس في"/>
+            <phrase id="less" value="&amp;lt;"/>
+            <phrase id="less_or_equal" value="&amp;lt;="/>
+            <phrase id="greater" value="&amp;gt;"/>
+            <phrase id="greater_or_equal" value="&amp;gt;="/>
+            <phrase id="between" value="ما بين"/>
+            <phrase id="not_between" value="ليس بينهما"/>
+            <phrase id="begins_with" value="ابداء بـ"/>
+            <phrase id="not_begins_with" value="لا يبدأ بـ"/>
+            <phrase id="contains" value="يتضمن"/>
+            <phrase id="not_contains" value="لا يحتوي"/>
+            <phrase id="ends_with" value="ينتهي بـ"/>
+            <phrase id="not_ends_with" value="لا ينتهي مع"/>
+            <phrase id="is_empty" value="فارغ"/>
+            <phrase id="is_not_empty" value="ليس فارغا"/>
+            <phrase id="is_null" value="is null"/>
+            <phrase id="is_not_null" value="is not null"/>
+        </operators>
+        <errors>
+            <phrase id="no_filter" value="لم يتم تحديد أي مرشح"/>
+            <phrase id="empty_group" value="المجموعة فارغة"/>
+            <phrase id="radio_empty" value="لم يتم تحديد أي قيمة"/>
+            <phrase id="checkbox_empty" value="لم يتم تحديد أي قيمة"/>
+            <phrase id="select_empty" value="لم يتم تحديد أي قيمة"/>
+            <phrase id="string_empty" value="قيمة فارغة"/>
+            <phrase id="string_exceed_min_length" value="يجب أن تحتوي على الأقل {0} الشخصيات"/>
+            <phrase id="string_exceed_max_length" value="يجب ألا تحتوي على أكثر من {0} الشخصيات"/>
+            <phrase id="string_invalid_format" value="التنسيق غير صالح ({0})"/>
+            <phrase id="number_nan" value="ليس رقما"/>
+            <phrase id="number_not_integer" value="ليس عددا صحيحا"/>
+            <phrase id="number_not_double" value="ليس رقما حقيقيا"/>
+            <phrase id="number_exceed_min" value="يجب أن يكون أكبر من {0}"/>
+            <phrase id="number_exceed_max" value="يجب أن يكون أقل من {0}"/>
+            <phrase id="number_wrong_step" value="يجب أن تكون متعددة {0}"/>
+            <phrase id="number_between_invalid" value="قيم غير صالحة, {0} أكبر من {1}"/>
+            <phrase id="datetime_empty" value="قيمة فارغة"/>
+            <phrase id="datetime_invalid" value="تنسيق التاريخ غير صالح ({0})"/>
+            <phrase id="datetime_exceed_min" value="يجب أن يكون بعد {0}"/>
+            <phrase id="datetime_exceed_max" value="يجب أن يكون من قبل {0}"/>
+            <phrase id="datetime_between_invalid" value="قيم غير صالحة, {0} أكبر من {1}"/>
+            <phrase id="boolean_not_valid" value="ليس منطقيا"/>'
+            <phrase id="operator_not_multiple" value="المشغل أو العامل '{1}' لا يمكن قبول قيم متعددة"/>
+        </errors>
+    </querybuilderjs>
+<!-- FullCalendar --><!-- v2023 -->
+    <fullcalendar>
+        <week>
+            <phrase id="dow" value="0"/><!-- Integer. Day of the week. Sunday=0, Monday=1, Tuesday=2, etc. -->
+            <phrase id="doy" value="4"/><!-- Integer. Day of year. Number of days need to be within the year to be considered the first week -->
+        </week>
+        <buttonText>
+            <phrase id="prev" value="السابق"/>
+            <phrase id="next" value="التالي"/>
+            <phrase id="prevYear" value="السنة الماضية"/>
+            <phrase id="nextYear" value="العام القادم"/>
+            <phrase id="year" value="السنة"/>
+            <phrase id="today" value="اليوم"/>
+            <phrase id="month" value="الشهر"/>
+            <phrase id="week" value="الاسبوع"/>
+            <phrase id="day" value="يوم"/>
+            <phrase id="list" value="قائمة"/>
+        </buttonText>
+         <buttonHints>
+            <phrase id="prev" value="سابق $0"/><!-- Do not translate '$0' -->
+            <phrase id="next" value="التالي $0"/><!-- Do not translate '$0' -->
+        </buttonHints>
+        <phrase id="weekText" value="W"/>
+        <phrase id="weekTextLong" value="اسبوع"/>
+        <phrase id="closeHint" value="اغلاق"/>
+        <phrase id="timeHint" value="وقت"/>
+        <phrase id="eventHint" value="حدث"/>
+        <phrase id="allDayText" value="طوال اليوم"/>
+        <phrase id="moreLinkText" value="المزيد"/>
+        <phrase id="noEventsText" value="لا توجد أحداث لعرضها"/>
+        <phrase id="viewHint" value="$0 عرض"/><!-- Do not translate '$0' -->
+        <phrase id="navLinkHint" value="اذهب إلى $0"/><!-- Do not translate '$0' -->
+    </fullcalendar>
+</global>
+</ew-language>
